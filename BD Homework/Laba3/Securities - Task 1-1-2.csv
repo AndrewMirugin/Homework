@@ -1,0 +1,11 @@
+idSecurities,Price,ClientID,type
+1,23000,6,Deposit
+2,10000,3,Security
+3,25000,5,Deposit
+4,17890,2,Security
+5,5000,4,Security
+6,23987,1,Deposit
+7,40000,6,Security
+8,12934,6,Security
+9,20000,1,Deposit
+10,13243,3,Security

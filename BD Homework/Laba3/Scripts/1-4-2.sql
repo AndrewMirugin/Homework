@@ -1,0 +1,1 @@
+DELETE FROM quotation WHERE Price>=17000

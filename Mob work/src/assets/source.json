@@ -1,0 +1,203 @@
+﻿{
+  "days": [
+    {
+      "day": "Понедельник",
+      "subjects": [
+        {
+          "timeStart": "8.15-9.35",
+          "subject": "Методы програм. и инф.",
+          "teacher": "Галкин И.М.",
+          "lectureHall": "433"
+        },
+        {
+          "timeStart": "9.45-11.05",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        },
+        {
+          "timeStart": "11.15-12.35",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "13.00-14.20",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        }
+      ]
+    },
+    {
+      "day": "Вторник",
+      "subjects": [
+        {
+          "timeStart": "8.15-9.35",
+          "subject": "Методы програм. и инф.",
+          "teacher": "Галкин И.М.",
+          "lectureHall": "433"
+        },
+        {
+          "timeStart": "9.45-11.05",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        },
+        {
+          "timeStart": "11.15-12.35",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "13.00-14.20",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "14.30-15.50",
+          "subject": "",
+          "teacher": "",
+          "lectureHall": ""
+        }
+      ]
+    },
+    {
+      "day": "Среда",
+      "subjects": [
+        {
+          "timeStart": "8.15-9.35",
+          "subject": "Методы програм. и инф.",
+          "teacher": "Галкин И.М.",
+          "lectureHall": "433"
+        },
+        {
+          "timeStart": "9.45-11.05",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        },
+        {
+          "timeStart": "11.15-12.35",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "13.00-14.20",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "14.30-15.50",
+          "subject": "",
+          "teacher": "",
+          "lectureHall": ""
+        }
+      ]
+    },
+    {
+      "day": "Четверг",
+      "subjects": [
+        {
+          "timeStart": "8.15-9.35",
+          "subject": "Методы програм. и инф.",
+          "teacher": "Галкин И.М.",
+          "lectureHall": "433"
+        },
+        {
+          "timeStart": "9.45-11.05",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        },
+        {
+          "timeStart": "11.15-12.35",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "13.00-14.20",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        }
+      ]
+    },
+    {
+      "day": "Пятница",
+      "subjects": [
+        {
+          "timeStart": "8.15-9.35",
+          "subject": "Методы програм. и инф.",
+          "teacher": "Галкин И.М.",
+          "lectureHall": "433"
+        },
+        {
+          "timeStart": "9.45-11.05",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        },
+        {
+          "timeStart": "11.15-12.35",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "13.00-14.20",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "14.30-15.50",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        }
+      ]
+    },
+    {
+      "day": "Суббота",
+      "subjects": [
+        {
+          "timeStart": "8.15-9.35",
+          "subject": "Методы програм. и инф.",
+          "teacher": "Галкин И.М.",
+          "lectureHall": "433"
+        },
+        {
+          "timeStart": "9.45-11.05",
+          "subject": "Физическая культура",
+          "teacher": "",
+          "lectureHall": ""
+        },
+        {
+          "timeStart": "11.15-12.35",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "13.00-14.20",
+          "subject": "Математический анализ",
+          "teacher": "Пекарский А.А.",
+          "lectureHall": "351"
+        },
+        {
+          "timeStart": "14.30-15.50",
+          "subject": "",
+          "teacher": "",
+          "lectureHall": ""
+        }
+      ]
+    }
+  ]
+}
+

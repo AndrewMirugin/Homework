@@ -1,39 +1,31 @@
 import { Component } from '@angular/core';
-import {NavController} from 'ionic-angular';
-import {MyServiceProvider} from "../../providers/my-service/my-service";
+import { NavController, NavParams } from 'ionic-angular';
+import {GetJsonProvider} from "../../providers/get-json/get-json";
 
 
-export class Person{
-  id:number;
-  name:string;
-  job:string;
-  salary:number;
+class Day{
+  day:string;
+  subjects:Subject[];
 }
-class Comment{
-  rating:number;
-  text:string;
-  author:string;
+class Subject{
+  timeStart:string;
+  subject:string;
+  teacher:string;
+  lectureHall:string;
 }
-export class Dishes{
-    id:number;
-    name:string;
-    category:string;
-    label:string;
-    price:number;
-    description:string;
-    comment:Comment;
-}
+
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+
 })
+
+
 export class HomePage {
-  parray:Dishes[];
-  constructor(public navCtrl: NavController, public ms:MyServiceProvider ) {
-
+  daysArray:Day[];
+  constructor(public navCtrl: NavController, public jp:GetJsonProvider, public navParam: NavParams) {
   }
-  ionViewDidLoad(){
-    this.ms.getData().subscribe(data=>this.parray = data['dishes']);
+  ionViewDidLoad() {
+    this.jp.getData().subscribe(data=>this.daysArray = data['days']);
   }
-
 }

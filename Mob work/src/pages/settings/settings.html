@@ -1,20 +1,37 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Settings</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Настройки
+    </ion-title>
   </ion-navbar>
 </ion-header>
+
 <ion-content>
   <ion-item>
-    <h1>Multiplying</h1>
-    <div>First Number: <input [(ngModel)]="first"></div>
-    <div>Second Number: <input [(ngModel)]="second"></div>
-    <p> Result: {{second | calculatePipe: first}}</p>
+    <ion-label>Вы</ion-label>
+    <ion-select [(ngModel)]="userType">
+      <ion-option value="student" selected="true">Студент</ion-option>
+      <ion-option value="teacher">Преподаватель</ion-option>
+    </ion-select>
   </ion-item>
-  <ion-item>
-    <h1>Email Name Generator</h1>
-    <div>First Name: <input [(ngModel)]="pname"></div>
-    <div>Last Name: <input [(ngModel)]="surname"></div>
-    <div>Year of birth: <input [(ngModel)]="birth"></div>
-    <p> Posible email: {{pname | emailGenerator:surname: birth}} or {{surname | emailGenerator:pname: birth}}</p>
-  </ion-item>
+
+  <form (ngSubmit)="goHome(f.value)" #f="ngForm" >
+    <ion-item>
+      <ion-label floating>Введите курс</ion-label>
+      <ion-input type="number" name="kursNumber" ngModel required ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Введите группу</ion-label>
+      <ion-input type="number" name="groupNumber" ngModel required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Введите Фамилию</ion-label>
+      <ion-input type="text" name="teacherFam" ngModel required></ion-input>
+    </ion-item>
+    <button ion-button ngSubmit full [disabled]="!f.valid">Сохранить</button>
+  </form>
 </ion-content>
+

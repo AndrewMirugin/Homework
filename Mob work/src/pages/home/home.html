@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-card *ngFor="let p of parray">
+        <ion-row>
+          <ion-col align-self-center text-center>
+            <h1>{{p.name}}</h1>
+          </ion-col>
+          <ion-col align-self-center text-center>
+            <p>Category: {{p.category}}</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-card-content>
+          <p>{{p.description}}</p>
+        </ion-card-content>
+
+        <ion-row>
+          <ion-col align-self-center text-center>
+            <h2>{{p.label}}</h2>
+          </ion-col>
+          <ion-col align-self-center text-center>
+            <h2>{{p.price}}$</h2>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+           <p>Comments:</p>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-card>
+            <ion-row>
+              <ion-col>
+                <h2> Rank {{p.comment.rating}}</h2>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <p>{{p.comment.text}}</p>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <p>By {{p.comment.author}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+        </ion-row>
+    </ion-card>
+  </ion-list>
+</ion-content>
